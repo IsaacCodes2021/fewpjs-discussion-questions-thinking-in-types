@@ -135,8 +135,8 @@ Fill in the rest of the table.
 | Function                       | types of inputs                  | type of output                | function signature                                      |
 | ------------------------------ | -------------------------------- | ----------------------------- | ------------------------------------------------------- |
 | `EventTarget.addEventListener` | string, handler(e: Event): void  | void                          | addEventListener(type: string, handler: function): void |
-| `window.setTimeout`            |                                  |                               |                                                        |
-| `Array.prototype.map`          |                                  |                               |                                                        |
-| `Array.prototype.find`         |                                  |                               |                                                         |
-| `Array.prototype.filter`       |                                  |                               |                                                         |
-| `Array.prototype.reduce`       |                                  |                               |                                                         |
+| `window.setTimeout`            | callback function, integer       | integer                       |                                                        |
+| `Array.prototype.map`          | callback function                | array                         |                                                        |
+| `Array.prototype.find`         | callback function                | array element, undefined      |                                                         |
+| `Array.prototype.filter`       | callback function                | array                         |                                                         |
+| `Array.prototype.reduce`       | callback function, string        |                               |                                                         |
