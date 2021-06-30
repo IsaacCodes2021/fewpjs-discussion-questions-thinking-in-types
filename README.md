@@ -116,13 +116,13 @@ For the following operators, fill in the types of the inputs and outputs. Follow
 | Operator   | types of inputs                  | type of output                | function signature                     |
 | ---------- | -------------------------------- | ----------------------------- | -------------------------------------- |
 | \*         | number, number                   | number                        | multiply(a: number, b: number): number |
-| + (string) |                                  |                               |                                        |
-| + (number) |                                  |                               |                                        |
-| -          |                                  |                               |                                        |
-| ^          |                                  |                               |                                        |
-| \*\*       |                                  |                               |                                        |
-| \|\|       |                                  |                               |                                        |
-| &&         |                                  |                               |                                        |
+| + (string) | string, string                   | string                        | add(a:string, b: string): string       |
+| + (number) | number, number                   | number                        | add(a: number, b: number): number      |
+| -          | number, number                   | number                        | subtract(a: number, b: number): number |
+| ^          | number, number                   | number                        | XOR(a:number, b: number): number       |
+| \*\*       | number, number                   | number                        | power(a: number, b: number): number    |
+| \|\|       | boolean, boolean                 | boolean                       | OR(a: boolean, b: boolean): boolean    |
+| &&         | boolean, boolean                 | boolean                       | AND(a: boolean, b: boolean): boolean   |
 
 ### Functions that take in functions as arguments
 
